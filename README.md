@@ -81,7 +81,7 @@ span:hover {
 
 
 ### Useful resources	
-[Hover Selector] (https://www.w3schools.com/cssref/sel_hover.asp) - You can find information about hover and useful examples to learn how to use it.
+[Hover Selector](https://www.w3schools.com/cssref/sel_hover.asp) - You can find information about hover and useful examples to learn how to use it.
 
 
 ### Author
