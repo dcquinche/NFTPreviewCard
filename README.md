@@ -36,7 +36,7 @@
 
 
 ### My process
-First we organized the HTML structure for the mobile design and we added the layouts including the hover selector. Then, we put a @media to change the size of the component for a better display on the desktop design.
+First we organized the HTML structure for the mobile design and we added the layouts including the hover selector on the image, title and author's name. Then, we put a @media to change the size of the component for a better display on the desktop design.
 
 
 ### Built with
