@@ -1,0 +1,109 @@
+#component {
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#text {
+    width: 300px;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h2:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+span {
+    color: white;
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+#line {
+    width: 300px;
+    height: 5px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+#equilibrium {
+    border-radius: 3em;
+    width: 80%;
+    padding: 2em;
+}
+
+#view {
+    display: none;
+    position: absolute;  
+    left: 50%;
+    top: 50%;                         
+    transform: translate(-50%, -50%);
+}
+
+#equilibrium:hover + #view {
+    display: block;
+}
+
+#equilibrium:hover{
+    filter: opacity(0.6) drop-shadow(0 0 0 hsl(178, 100%, 50%));
+}
+
+#avatar {
+    width: 10%;
+    border: solid white;
+    border-radius: 30px;
+    margin-right: 1em;
+}
+
+#stadistics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.singleStadistic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.space {
+    margin-right: 0.5em;
+}
+
+.colorCyan {
+    color: hsl(178, 100%, 50%);
+}
+
+.colorGray {
+    color: hsl(215, 51%, 70%);
+}
+
+footer {
+    padding-left: 2em;
+    padding-right: 2em;
+    color: hsl(0, 0%, 100%);
+}
+
+@media (min-width: 1440px){
+    #component {
+        width: 380px;
+    }
+}
